@@ -1,0 +1,35 @@
+body {
+    background: cornsilk;
+}
+
+.jumbotron {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+}
+
+.card-header {
+    color: darkslateblue;
+}
+
+
+#add-train-btn {
+    background-color: darkslateblue;
+    color: cornsilk;
+}
+
+
+/* Media Query */
+/* 980px */
+@media only screen and (max-width: 980px) {
+
+}
+
+/* 768px */
+@media only screen and (max-width: 768px) {
+    
+}
+
+/* 640px */
+@media only screen and (max-width: 640px) {
+    
+}
