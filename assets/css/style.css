@@ -5,16 +5,43 @@ body {
 .jumbotron {
     font-family: 'Raleway', sans-serif;
     margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.jumbotron h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.jumbotron h4 {
+    font-size: 24px;
 }
 
 .card-header {
     color: darkslateblue;
+    font-weight: bold;
 }
 
+th {
+    margin-bottom: 10px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.card {
+    margin-bottom: 50px;
+}
 
 #add-train-btn {
-    background-color: darkslateblue;
+    background: darkslateblue;
     color: cornsilk;
+}
+
+#add-train-btn:active {
+    background: cornsilk;
+    color: darkslateblue;
 }
 
 

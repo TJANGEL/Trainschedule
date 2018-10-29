@@ -11,7 +11,7 @@ var config = {
   
   var trainData = firebase.database();
   
-  // add trains
+  // add train forms
   $("#add-train-btn").on("click", function() {
   
     // forms for user input
