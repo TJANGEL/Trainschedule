@@ -7,6 +7,8 @@ body {
     font-family: 'Raleway', sans-serif;
     margin-top: 20px;
     margin-bottom: 35px;
+    background: darkslateblue;
+    color: cornsilk;
 }
 
 .jumbotron h1 {
@@ -26,6 +28,12 @@ body {
 
 th {
     margin-bottom: 10px;
+    background: lightgray;
+    color: darkslateblue;
+}
+
+tr {
+    color: darkslateblue;
 }
 
 label {
@@ -34,6 +42,22 @@ label {
 
 .card {
     margin-bottom: 50px;
+    color: darkslateblue;
+}
+
+#train-name-input,
+#destination-input,
+#first-train-input,
+#frequency-input {
+    color: darkslateblue;
+}
+
+#train-name-input:focus,
+#destination-input:focus,
+#first-train-input:focus,
+#frequency-input:focus {
+    background: lightgray;
+    border: 2px solid darkslateblue;
 }
 
 #add-train-btn {
