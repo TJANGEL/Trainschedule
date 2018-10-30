@@ -12,7 +12,7 @@ body {
 }
 
 .jumbotron h1 {
-    font-size: 40px;
+    font-size: 60px;
     margin-bottom: 15px;
 }
 
@@ -23,13 +23,14 @@ body {
 .card-header {
     background: darkslateblue;
     color: cornsilk;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 th {
     margin-bottom: 10px;
-    background: lightgray;
+    background: rgba(211, 211, 211, 0.633);
     color: darkslateblue;
+    font-weight: 600;
 }
 
 tr {
@@ -41,7 +42,7 @@ label {
 }
 
 .card {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     color: darkslateblue;
 }
 
@@ -56,7 +57,7 @@ label {
 #destination-input:focus,
 #first-train-input:focus,
 #frequency-input:focus {
-    background: lightgray;
+    background: rgba(211, 211, 211, 0.482);
     border: 2px solid darkslateblue;
 }
 
